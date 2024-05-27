@@ -1,0 +1,5 @@
+<scene version="1.5.4">
+	<environment ambientexponent="0" fogColor="0.88 1.0 0.99" fogParams="40 100 0.99 1" sunColorTint="0 0 0" ambience=" "/>
+	<script pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/menu.lua"/>
+</scene>
+

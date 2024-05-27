@@ -1,0 +1,622 @@
+<scene version="1.5.4">
+	<script file="main.lua"/>
+	<script file="sandbox.lua" param0="spawn=false" param1="unlimited=false" param2="weather=false"/>
+	<voxscript tags="unbreakable" pos="22.8 0.0 -1.9" texture="6 0.4" file="BUILT-IN/voxscript/ground.lua">
+		<parameters file="MOD/checkpoint0ground.png" grass="MOD/checkpoint0grass.png"/>
+	</voxscript>
+	<voxscript tags="unbreakable" pos="22.8 0.0 -53.0" texture="6 0.4" file="BUILT-IN/voxscript/ground.lua">
+		<parameters file="MOD/checkpoint0ground.png" grass="MOD/checkpoint0grass.png"/>
+	</voxscript>
+	<voxscript tags="unbreakable" pos="22.8 0.0 49.2" texture="6 0.4" file="BUILT-IN/voxscript/ground.lua">
+		<parameters file="MOD/checkpoint0ground.png" grass="MOD/checkpoint0grass.png"/>
+	</voxscript>
+	<group name="walls" pos="-4.8 0.0 -6.1" rot="0.0 180.0 0.0" prop0="texture=1 0.4" prop1="tags=unbreakable">
+		<voxbox tags="unbreakable" pos="-27.6 0.1 -32.8" rot="0.0 0.0 0.0" size="256 68 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-27.6 5.4 -45.7" rot="0.0 0.0 0.0" size="32 15 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="0.0 53.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-24.5 5.3 -32.8" rot="0.0 90.0 0.0" size="128 16 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="0.0 51.99999 0.0"/>
+		<voxbox tags="unbreakable" pos="-14.7 0.1 -32.8" rot="0.0 90.0 0.0" size="128 53 1" brush="MOD/vox/Art Vandals/Voxboxes/brickwork_reddish_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-8.3 0.1 -32.8" rot="0.0 90.0 0.0" size="194 53 1" brush="MOD/vox/Art Vandals/Voxboxes/brickwork_reddish_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-8.3 0.1 -52.2" rot="0.0 0.0 0.0" size="63 53 1" brush="MOD/vox/Art Vandals/Voxboxes/brickwork_reddish_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-14.6 0.1 -32.9" rot="0.0 0.0 0.0" size="64 53 1" brush="MOD/vox/Art Vandals/Voxboxes/brickwork_reddish_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-14.6 0.1 -39.3" rot="0.0 0.0 0.0" size="63 53 1" brush="MOD/vox/Art Vandals/Voxboxes/brickwork_reddish_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-2.0 0.1 -45.6" rot="0.0 180.0 0.0" size="256 53 1" brush="MOD/vox/Art Vandals/Voxboxes/brickwork_reddish_01.vox" offset="-127.0 0.0 -0.00002"/>
+		<voxbox tags="unbreakable" pos="-27.6 0.1 -26.3" rot="0.0 0.0 0.0" size="256 68 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-10.8 0.1 -26.2" rot="0.0 -90.0 0.0" size="64 204 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-5.9 6.9 -26.2" rot="0.0 180.0 0.0" size="50 136 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="0.0 68.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-5.9 0.1 -19.7" rot="0.0 180.0 0.0" size="50 204 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-5.9 0.1 -26.2" rot="0.0 -90.0 0.0" size="64 204 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-2.0 0.1 -26.2" rot="0.0 90.0 0.0" size="209 68 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="0.0 0.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-2.0 0.1 -48.9" rot="0.0 90.0 0.0" size="33 68 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="227.0 0.0 -0.0"/>
+		<voxbox tags="unbreakable" pos="-2.0 2.9 -47.1" rot="0.0 90.0 0.0" size="18 40 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="209.0 28.0 0.0"/>
+		<voxbox tags="unbreakable" pos="-2.0 0.1 -47.1" rot="0.0 90.0 0.0" prop="true" size="18 28 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="209.0 28.0 0.0"/>
+		<voxbox pos="-27.6 0.0 -32.8" size="256 1 66" brush="MOD/vox/Art Vandals/Voxboxes/concrete_floor_dirty.vox" offset="0.0 0.0 -1.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-10.9 0.0 -26.2" size="50 1 65" brush="MOD/vox/Art Vandals/Voxboxes/concrete_floor_dirty.vox" offset="0.0 0.0 -1.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-10.9 20.5 -26.2" size="50 1 64" brush="MOD/vox/Art Vandals/Voxboxes/concrete_floor_dirty.vox" offset="0.0 0.0 -1.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-27.6 0.0 -45.7" size="130 1 129" brush="BUILT-IN/brush/floor/ceramic_tiles_square_ash.vox" offset="0.00001 0.0 -64.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-14.6 0.0 -45.7" size="127 1 129" brush="BUILT-IN/brush/floor/ceramic_tiles_square_ash.vox" offset="0.00001 0.0 -64.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-8.3 0.0 -52.2" size="64 1 65" brush="BUILT-IN/brush/floor/ceramic_tiles_square_ash.vox" offset="63.00001 0.0 -64.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-24.4 5.3 -45.6" size="224 3 128" brush="MOD/vox/Art Vandals/Voxboxes/concrete_floor_dirty.vox" offset="32.00001 0.0 -63.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-8.3 5.3 -52.2" size="63 3 66" brush="MOD/vox/Art Vandals/Voxboxes/concrete_floor_dirty.vox" offset="193.00002 0.0 -0.99998" color="0.8 0.8 0.8"/>
+		<voxbox pos="-27.6 6.9 -32.8" size="257 1 66" brush="MOD/vox/Art Vandals/Voxboxes/concrete_floor_dirty.vox" offset="0.0 0.0 -1.0"/>
+		<voxbox pos="-27.6 6.9 -45.6" size="32 1 128" brush="MOD/vox/Art Vandals/Voxboxes/concrete_floor_dirty.vox" offset="0.0 0.0 -1.0"/>
+		<voxbox pos="-27.6 5.3 -32.7" size="256 16 64" brush="MOD/vox/omegabeams.vox" object="ceilingpanel" offset="0.0 0.0 0.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-27.6 5.3 -45.6" size="32 16 128" brush="MOD/vox/omegabeams.vox" object="ceilingpanel" offset="0.00001 0.0 -64.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-30.9 0.0 -31.1" size="32 2 32" brush="MOD/vox/omegabeams.vox" object="sidewalk" offset="-16.0 0.0 0.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-30.9 0.0 -82.3" size="32 2 32" brush="MOD/vox/omegabeams.vox" object="sidewalk" offset="-16.0 0.0 0.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-30.9 0.0 20.1" size="32 2 32" brush="MOD/vox/omegabeams.vox" object="sidewalk" offset="-16.0 0.0 0.0" color="0.8 0.8 0.8"/>
+		<voxbox pos="-32.5 0.0 -106.39999" size="16 2 1533" brush="MOD/vox/omegabeams.vox" object="sidewalk" offset="-15.99999 0.0 -753.0" color="0.8 0.8 0.8"/>
+		<voxbox tags="unbreakable" pos="-27.7 0.1 46.9" rot="0.0 90.0 0.0" size="1532 128 1" brush="MOD/vox/Art Vandals/Voxboxes/brickwork_reddish_01.vox" offset="-731.0 0.0 -0.00001"/>
+		<voxbox tags="unbreakable" pos="-27.6 0.1 -79.1" rot="0.0 90.0 0.0" size="32 28 1" offset="-731.0 0.0 -0.00001" color="0 0 0"/>
+		<voxbox tags="unbreakable" pos="-27.6 0.1 23.3" rot="0.0 90.0 0.0" size="32 28 1" offset="-731.0 0.0 -0.00001" color="0 0 0"/>
+		<vox pos="-27.7 3.3 -36.0" file="MOD/vox/omegabeams.vox" object="window"/>
+		<vox pos="-27.7 3.3 -39.2" file="MOD/vox/omegabeams.vox" object="window"/>
+		<vox pos="-27.7 3.3 -42.4" file="MOD/vox/omegabeams.vox" object="window"/>
+	</group>
+	<group name="pipes and vents" pos="-4.8 0.0 -6.1" rot="0.0 180.0 0.0" prop0="texture=1 0.4">
+		<voxbox pos="-25.6 5.5 -32.4" size="236 9 11" brush="BUILT-IN/brush/pipe/square_medium_rusty_11x9.vox" offset="0.0 0.0 0.0"/>
+		<voxbox pos="-25.6 5.9 -29.3" size="236 9 9" brush="BUILT-IN/brush/pipe/round_medium_9x9_set.vox" offset="0.0 0.0 0.0"/>
+		<voxbox pos="-27.1 5.9 -32.8" rot="0.0 90.0 0.0" size="128 9 9" brush="BUILT-IN/brush/pipe/round_medium_9x9_set.vox" offset="0.0 0.0 0.0"/>
+		<voxbox pos="-25.6 5.9 -27.7" size="236 9 9" brush="BUILT-IN/brush/pipe/round_medium_9x9_set.vox" offset="0.0 0.0 0.0"/>
+		<voxbox pos="-27.1 5.9 -29.9" rot="0.0 90.0 0.0" size="28 9 9" brush="BUILT-IN/brush/pipe/round_medium_9x9_set.vox" offset="0.0 0.0 0.0"/>
+		<voxbox pos="-27.1 6.8 -30.0" rot="180.0 -90.0 0.0" size="16 9 15" brush="BUILT-IN/brush/pipe/round_medium_9x9_set.vox" object="T-Turn" offset="0.0 0.0 0.0"/>
+		<voxbox pos="-27.1 6.8 -28.4" rot="180.0 -90.0 0.0" size="21 9 15" brush="BUILT-IN/brush/pipe/round_medium_9x9_set.vox" object="T-Turn" offset="0.0 0.0 0.0"/>
+		<voxbox pos="-25.7 5.5 -31.3" rot="0.0 90.0 0.0" size="14 9 11" brush="BUILT-IN/brush/pipe/square_medium_rusty_11x9.vox" offset="0.0 0.0 0.0"/>
+		<voxbox pos="-25.7 5.5 -32.8" rot="0.0 90.0 0.0" size="128 9 11" brush="BUILT-IN/brush/pipe/square_medium_rusty_11x9.vox" offset="0.0 0.0 0.0"/>
+	</group>
+	<group name="lights" pos="-4.8 0.0 -6.1" rot="0.0 180.0 0.0">
+		<vox pos="-25.2 5.3 -30.3" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+			<rope pos="0.3 0.2 0.0">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="-0.0 1.4 -0.2" rot="0.0 0.0 0.0"/>
+			</rope>
+			<rope pos="0.1 0.2 0.0" color="1">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="-0.0 1.4 -0.2" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="-18.8 5.3 -30.3" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+			<rope pos="0.3 0.2 0.0">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="-0.0 1.4 -0.2" rot="0.0 0.0 0.0"/>
+			</rope>
+			<rope pos="0.1 0.2 0.0" color="1">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="-0.0 1.4 -0.2" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="-25.2 5.3 -35.2" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+		</vox>
+		<vox pos="-18.8 5.3 -35.2" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+		</vox>
+		<vox pos="-8.4 20.5 -23.0" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="24" size="1.4 1.4" reach="50"/>
+		</vox>
+		<vox pos="-12.4 5.3 -35.2" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+		</vox>
+		<vox pos="-6.0 5.3 -35.2" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+		</vox>
+		<vox pos="-25.2 5.3 -41.6" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+		</vox>
+		<vox pos="-18.8 5.3 -41.6" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+		</vox>
+		<vox pos="-12.4 5.3 -41.6" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+		</vox>
+		<vox pos="-6.0 5.3 -41.6" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+		</vox>
+		<vox pos="-6.0 5.3 -48.0" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+		</vox>
+		<vox pos="-12.4 5.3 -30.3" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+			<rope pos="0.3 0.2 0.0">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="-0.0 1.4 -0.2" rot="0.0 0.0 0.0"/>
+			</rope>
+			<rope pos="0.1 0.2 0.0" color="1">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="-0.0 1.4 -0.2" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="-6.0 5.3 -30.3" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="ceilinglight">
+			<light pos="0.0 0.0 0.0" rot="90.0 0.0 0.0" type="area" color="1.0 0.98 0.9" scale="6" size="1.4 1.4"/>
+			<rope pos="0.3 0.2 0.0">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="-0.0 1.4 -0.2" rot="0.0 0.0 0.0"/>
+			</rope>
+			<rope pos="0.1 0.2 0.0" color="1">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="-0.0 1.4 -0.2" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+	</group>
+	<group name="Environment" pos="-161.90002 3.4 -10.7" rot="0.0 180.0 0.0">
+		<environment name="env_1.3_sunset" skybox="MOD/env/CGSkies_0274_8k.dds" skyboxrot="115" constant="0.002 0.0025 0.003" ambient="2.25" fogColor="0.2 0.135 0.085" fogParams="100 450 1.0 7.5" sunBrightness="3.14" sunColorTint="1.0 0.7 0.5" sunSpread="0.025" sunFogScale="0.1" sunGlare="0.25" exposure="1 9" fogscale="0.5">
+			<postprocessing name="pp" gamma="0.85"/>
+		</environment>
+	</group>
+	<group name="props" pos="-4.8 0.0 -6.1">
+		<vox pos="8.453 3.202 28.699" rot="0.0 -179.89999 -0.2" texture="9 0.4" prop="true" file="MOD/vox/omegabeams.vox" object="subjectsign">
+			<rope pos="0.05 1.8 -0.8" strength="10" maxstretch="1">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="0.0 0.2 -0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+			<rope pos="0.05 1.8 0.8" strength="10" maxstretch="1">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="0.0 0.2 -0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="5.2 3.0 32.65" rot="0.0 -89.9 -0.2" texture="9 0.4" file="MOD/vox/omegabeams.vox" object="restroomsign"/>
+		<vox pos="7.7 3.0 40.55" rot="0.0 -89.9 -0.2" desc="Male" texture="9 0.4" file="MOD/vox/omegabeams.vox" object="men_sign"/>
+		<vox pos="7.7 3.7 44.75" rot="-180.0 89.9 0.2" desc="Woke" texture="9 0.4" file="MOD/vox/omegabeams.vox" object="men_sign"/>
+		<vox pos="7.7 3.0 40.75" rot="0.0 -89.9 -0.2" desc="Male" texture="9 0.4" file="MOD/vox/omegabeams.vox" object="men_sign"/>
+		<vox pos="16.406 3.23 30.301" rot="0.0 179.8 1.3" texture="9 0.4" prop="true" file="MOD/vox/omegabeams.vox" object="visitorsign">
+			<rope pos="0.05 1.8 -0.8" strength="10" maxstretch="1">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="0.0 0.2 -0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+			<rope pos="0.05 1.8 0.8" strength="10" maxstretch="1">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="0.0 0.2 -0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="26.37173 1.10048 27.00452" rot="0.0 2.1 0.1" prop="true" file="BUILT-IN/vox/prop/crate_set.vox" object="small"/>
+		<vox pos="25.81907 0.09993 26.92284" rot="0.0 -3.4 0.0" prop="true" file="BUILT-IN/vox/prop/crate_set.vox" object="small"/>
+		<vox pos="26.94794 0.10002 26.97753" rot="0.0 17.5 0.0" prop="true" file="BUILT-IN/vox/prop/crate_set.vox" object="small"/>
+		<vox pos="12.34517 0.70001 31.61129" rot="0.1 93.1 0.0" prop="true" file="BUILT-IN/vox/prop/crate_set.vox" object="medium"/>
+		<vox pos="16.3928 1.4 27.20983" rot="0.0 -179.2 0.0" prop="true" file="BUILT-IN/vox/prop/crate_set.vox" object="medium"/>
+		<vox pos="16.53244 0.1 27.28437" rot="0.0 -0.2 0.0" prop="true" file="BUILT-IN/vox/prop/crate_set.vox" object="large"/>
+		<vox pos="13.6 0.1 34.3" rot="0.0 90.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="stall"/>
+		<vox pos="13.6 0.1 36.5" rot="0.0 90.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="stall"/>
+		<vox pos="13.6 0.1 44.1" rot="0.0 90.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="stall"/>
+		<vox pos="13.6 0.1 41.9" rot="0.0 90.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="stall"/>
+		<vox pos="12.7 0.4 41.9" rot="0.0 90.0 0.0" prop="true" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="door">
+			<joint pos="-0.8 0.5 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+			<joint pos="-0.8 1.9 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+		</vox>
+		<vox pos="12.7 0.4 44.1" rot="0.0 90.0 0.0" prop="true" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="door">
+			<joint pos="-0.8 0.5 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+			<joint pos="-0.8 1.9 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+		</vox>
+		<vox pos="12.7 0.4 36.5" rot="0.0 90.0 0.0" prop="true" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="door">
+			<joint pos="-0.8 0.5 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+			<joint pos="-0.8 1.9 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+		</vox>
+		<vox pos="12.7 0.4 34.3" rot="0.0 90.0 0.0" prop="true" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="door">
+			<joint pos="-0.8 0.5 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+			<joint pos="-0.8 1.9 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+		</vox>
+		<vox pos="8.8 0.1 35.7" rot="0.0 90.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="sink"/>
+		<vox pos="8.8 0.1 34.0" rot="0.0 90.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="sink"/>
+		<vox pos="8.8 0.1 44.5" rot="0.0 90.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="sink"/>
+		<vox pos="8.8 0.1 42.8" rot="0.0 90.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="sink"/>
+		<vox pos="7.7 3.0 37.65" rot="0.0 -89.9 -0.2" desc="Female" texture="9 0.4" file="MOD/vox/omegabeams.vox" object="female_sign1"/>
+		<vox pos="7.7 3.0 37.85" rot="0.0 -89.9 -0.2" desc="Female" texture="9 0.4" file="MOD/vox/omegabeams.vox" object="female_sign2"/>
+		<vox pos="16.8 0.1 42.3" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="bodyscanner"/>
+		<vox pos="19.6 0.1 42.3" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="bodyscanner"/>
+		<vox pos="27.0 0.1 34.9" rot="0.0 0.0 0.0" file="MOD/vox/omegabeams.vox" object="bench"/>
+		<vox pos="27.0 0.1 39.0" rot="0.0 0.0 0.0" file="MOD/vox/omegabeams.vox" object="bench"/>
+		<vox pos="27.0 0.1 43.1" rot="0.0 0.0 0.0" file="MOD/vox/omegabeams.vox" object="bench"/>
+		<vox pos="20.5 0.1 40.2" rot="0.0 -180.0 0.0" density="4" prop="true" file="MOD/vox/omegabeams.vox" object="ropepole"/>
+		<vox pos="20.5 0.1 37.9" rot="0.0 -180.0 0.0" density="4" prop="true" file="MOD/vox/omegabeams.vox" object="ropepole">
+			<rope pos="0.0 1.4 -0.1" rot="0.0 90.0 0.0" color="0.22 0.5 0.71">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="2.1 0.0 0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="20.5 0.1 35.7" rot="0.0 -180.0 0.0" density="4" prop="true" file="MOD/vox/omegabeams.vox" object="ropepole">
+			<rope pos="0.0 1.4 -0.1" rot="0.0 90.0 0.0" color="0.22 0.5 0.71">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="2.0 0.0 -0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="20.5 0.1 33.5" rot="0.0 -180.0 0.0" density="4" prop="true" file="MOD/vox/omegabeams.vox" object="ropepole">
+			<rope pos="0.0 1.4 -0.1" rot="0.0 90.0 0.0" color="0.22 0.5 0.71">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="2.0 0.0 -0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="18.3 0.1 35.7" rot="0.0 90.0 0.0" density="4" prop="true" file="MOD/vox/omegabeams.vox" object="ropepole">
+			<rope pos="0.0 1.4 -0.1" rot="0.0 90.0 0.0" color="0.22 0.5 0.71">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="2.1 0.0 0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="18.3 0.1 37.9" rot="0.0 -90.0 0.0" density="4" prop="true" file="MOD/vox/omegabeams.vox" object="ropepole">
+			<rope pos="0.0 1.4 -0.1" rot="0.0 90.0 0.0" color="0.22 0.5 0.71">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="2.0 0.0 -0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="16.0 0.1 35.7" rot="0.0 -180.0 0.0" density="4" prop="true" file="MOD/vox/omegabeams.vox" object="ropepole">
+			<rope pos="0.0 1.4 -0.1" rot="0.0 90.0 0.0" color="0.22 0.5 0.71">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="2.1 0.0 0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="16.0 0.1 38.0" rot="0.0 -180.0 0.0" density="4" prop="true" file="MOD/vox/omegabeams.vox" object="ropepole">
+			<rope pos="0.0 1.4 -0.1" rot="0.0 90.0 0.0" color="0.22 0.5 0.71">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="2.1 0.0 0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+		<vox pos="16.0 0.1 40.3" rot="0.0 -180.0 0.0" density="4" prop="true" file="MOD/vox/omegabeams.vox" object="ropepole"/>
+		<vox pos="5.7 0.1 51.1" rot="0.0 0.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="stall"/>
+		<vox pos="3.50001 0.1 51.09999" rot="0.0 0.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="stall"/>
+		<vox pos="3.1 0.1 46.2" rot="0.0 0.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="sink"/>
+		<vox pos="4.8 0.1 46.2" rot="0.0 0.0 0.0" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="sink"/>
+		<vox pos="5.7 0.4 50.2" rot="0.0 0.0 0.0" prop="true" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="door">
+			<joint pos="-0.8 0.5 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+			<joint pos="-0.8 1.9 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+		</vox>
+		<vox pos="3.5 0.4 50.2" rot="0.0 0.0 0.0" prop="true" file="BUILT-IN/vox/furniture/bathroom/bathroom_public1_set.vox" object="door">
+			<joint pos="-0.8 0.5 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+			<joint pos="-0.8 1.9 -0.1" rot="-90.0 0.0 0.0" type="hinge" collide="true" limits="0 160"/>
+		</vox>
+		<vox pos="2.1 1.4 36.0" rot="0.0 90.0 0.0" file="BUILT-IN/vox/prop/painting/modern_blue_red_set.vox" object="art_modern_01"/>
+		<vox pos="2.1 1.3 39.20001" rot="0.0 90.0 0.0" file="BUILT-IN/vox/prop/painting/modern_blue_red_set.vox" object="art_modern_02"/>
+		<vox pos="2.1 1.3 42.60001" rot="0.0 90.0 0.0" file="BUILT-IN/vox/prop/painting/modern_blue_red_set.vox" object="art_modern_03"/>
+	</group>
+	<group name="For Klift" pos="6.1 0.1 25.5" rot="0.0 -85.0 0.0">
+		<vehicle tags="forklift nodrive" pos="0.1 0.0 0.3" rot="0.0 0.0 0.0" driven="false" sound="electric1" spring="2" topspeed="12" acceleration="1" strength="2" antispin="0" difflock="0.5" friction="1.5">
+			<body pos="-0.05 0.4 0.05" rot="0.0 0.0 0.0" dynamic="true">
+				<vox pos="0.05 -0.3 0.15" rot="0.0 -180.0 0.0" density="3" strength="5" file="BUILT-IN/vox/vehicle/land/forklift_small_yellow_electric.vox" object="body">
+					<light pos="0.55 1.45 0.7" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="5" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.2"/>
+					<light pos="0.0 0.65 -1.2" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" scale="1" size="0.2 0.1" unshadowed="0.2" glare="0.3"/>
+					<light pos="-0.55 1.45 0.7" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="5" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.2"/>
+					<location tags="vital" pos="0.05 0.55 -0.65" rot="0.0 0.0 0.0"/>
+					<location tags="player" pos="0.0 1.85 0.05" rot="0.0 0.0 0.0"/>
+				</vox>
+				<wheel name="bl" pos="-0.45 -0.15 1.1" rot="0.0 0.0 0.0" steer="-1" travel="-0.1 0.1">
+					<vox pos="0.0 -0.25 -0.05" rot="0.0 -180.0 0.0" file="BUILT-IN/vox/vehicle/land/forklift_small_yellow_electric.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel name="bl" pos="0.45 -0.15 1.1" rot="0.0 0.0 0.0" steer="-1" travel="-0.1 0.1">
+					<vox pos="0.1 -0.25 -0.05" rot="0.0 -180.0 0.0" file="BUILT-IN/vox/vehicle/land/forklift_small_yellow_electric.vox" object="wheel_br"/>
+				</wheel>
+				<wheel name="fl" pos="-0.45 -0.15 -0.7" rot="0.0 0.0 0.0" drive="1" steer="0" travel="-0.1 0.1">
+					<vox pos="0.0 -0.25 -0.05" rot="0.0 -180.0 0.0" file="BUILT-IN/vox/vehicle/land/forklift_small_yellow_electric.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel name="fl" pos="0.45 -0.15 -0.7" rot="0.0 0.0 0.0" drive="1" steer="0" travel="-0.1 0.1">
+					<vox pos="0.1 -0.25 -0.05" rot="0.0 -180.0 0.0" file="BUILT-IN/vox/vehicle/land/forklift_small_yellow_electric.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+			<body pos="0.0 0.1 -0.9" dynamic="true">
+				<vox pos="0.0 0.0 -0.1" rot="0.0 -180.0 0.0" density="4" strength="10" file="BUILT-IN/vox/vehicle/land/forklift_small_yellow_electric.vox" object="lift">
+					<joint pos="0.4 1.1 -0.1" rot="-90.0 -90.0 0.0" type="prismatic" limits="0.0 1.4"/>
+					<joint pos="-0.4 1.1 -0.1" rot="-90.0 -90.0 0.0" type="prismatic" limits="0 1.4"/>
+				</vox>
+			</body>
+			<body pos="0.0 0.4 -1.45" dynamic="true">
+				<vox pos="0.0 0.1 -0.15" rot="0.0 -180.0 0.0" density="4" strength="10" file="BUILT-IN/vox/vehicle/land/forklift_small_yellow_electric.vox" object="fork">
+					<joint pos="0.35 0.1 -0.6" rot="-90.0 -90.0 0.0" type="prismatic" limits="-0.5 1.5"/>
+					<joint pos="-0.35 0.1 -0.6" rot="-90.0 270.0 0.0" type="prismatic" limits="-0.5 1.5"/>
+				</vox>
+			</body>
+		</vehicle>
+	</group>
+	<group name="trees" pos="43.5 0.5 26.1">
+		<voxscript pos="3.9 3.4 16.6" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="2.6 2.8 1.1" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="-3.9 0.1 -9.5" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="3.9 2.5 -24.5" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="2.7 3.1 -38.0" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="-3.8 0.0 -49.5" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="-3.4 0.2 -61.0" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="3.9 3.0 -19.2" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="1.1 2.8 7.3" file="BUILT-IN/voxscript/tree.lua">
+			<parameters leaves="0.6" randomseed="0"/>
+		</voxscript>
+		<voxscript pos="-2.6 0.4 0.5" file="BUILT-IN/voxscript/tree.lua">
+			<parameters leaves="0.6" randomseed="0"/>
+		</voxscript>
+		<voxscript pos="-2.1 0.9 -15.0" file="BUILT-IN/voxscript/tree.lua">
+			<parameters leaves="0.6" randomseed="0"/>
+		</voxscript>
+		<voxscript pos="-2.3 0.6 -33.1" file="BUILT-IN/voxscript/tree.lua">
+			<parameters leaves="0.6" randomseed="0"/>
+		</voxscript>
+		<voxscript pos="1.9 2.2 -55.7" file="BUILT-IN/voxscript/tree.lua">
+			<parameters leaves="0.6" randomseed="0"/>
+		</voxscript>
+		<voxscript pos="0.0 2.5 -68.0" file="BUILT-IN/voxscript/tree.lua">
+			<parameters leaves="0.6" randomseed="0"/>
+		</voxscript>
+		<voxscript pos="3.9 2.5 -6.8" file="BUILT-IN/voxscript/tree.lua">
+			<parameters leaves="0.6" randomseed="0"/>
+		</voxscript>
+		<voxscript pos="-3.4 0.2 41.69999" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="1.6 2.7 31.69999" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="1.6 2.2 46.99999" file="BUILT-IN/voxscript/tree.lua">
+			<parameters leaves="0.6" randomseed="0"/>
+		</voxscript>
+		<voxscript pos="-2.4 0.0 55.29999" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<voxscript pos="-3.6 0.3 69.59998" file="BUILT-IN/voxscript/tree.lua">
+			<parameters leaves="0.6" randomseed="0"/>
+		</voxscript>
+		<voxscript pos="2.7 3.1 64.69999" file="BUILT-IN/voxscript/pine.lua">
+			<parameters random="0"/>
+		</voxscript>
+		<vox pos="11.3 2.3 13.0" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+		<vox pos="11.7 1.3 -2.5" rot="0.0 -180.0 0.0" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+		<vox pos="13.6 1.3 -17.8" rot="0.0 180.0 0.0" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+		<vox pos="13.6 1.3 -60.4" rot="0.0 180.0 0.0" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+		<vox pos="11.3 1.3 -75.2" rot="0.0 180.0 0.0" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+		<vox pos="11.3 2.3 -29.6" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+		<vox pos="11.7 1.3 -45.1" rot="0.0 -180.0 0.0" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+		<vox pos="13.6 1.3 26.0" rot="0.0 180.0 0.0" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+		<vox pos="11.3 2.8 56.8" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+		<vox pos="11.3 2.5 68.0" rot="0.0 180.0 0.0" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+		<vox pos="11.5 1.3 40.90001" rot="0.0 -180.0 0.0" file="BUILT-IN/vox/nature/tree/tree_cluster1_no_bushes.vox" scale="1.5"/>
+	</group>
+	<group name="doors" pos="22.9 0.1 23.4" prop0="tags=unbreakable">
+		<vox pos="-0.05 0.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe">
+			<vox pos="0.05 0.1 -0.7" rot="0.0 0.0 0.0" file="MOD/vox/omegabeams.vox" object="door_r">
+				<joint pos="-0.05 0.6 -0.8" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 -0.8" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+			<vox pos="0.05 0.1 0.8" rot="0.0 0.0 0.0" file="MOD/vox/omegabeams.vox" object="door_l">
+				<joint pos="-0.05 0.6 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+		</vox>
+		<vox pos="-22.5 0.0 3.25" rot="0.0 90.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe">
+			<vox pos="0.05 0.1 -0.7" rot="0.0 0.0 0.0" prop="true" file="MOD/vox/omegabeams.vox" object="door_r">
+				<joint pos="-0.05 0.6 -0.8" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 -0.8" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+			<vox pos="0.05 0.1 0.8" rot="0.0 0.0 0.0" prop="true" file="MOD/vox/omegabeams.vox" object="door_l">
+				<joint pos="-0.05 0.6 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+		</vox>
+		<vox pos="-19.3 0.0 -3.25" rot="0.0 90.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe"/>
+		<vox pos="-19.3 12.8 -9.75" rot="0.0 90.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe"/>
+		<vox pos="-19.45 0.0 8.3" rot="0.0 180.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe2">
+			<vox pos="0.05 0.1 0.0" rot="0.0 0.0 0.0" prop="true" file="MOD/vox/omegabeams.vox" object="door_single_privacy">
+				<joint pos="-0.05 0.6 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+		</vox>
+		<vox pos="-19.45 0.0 11.2" rot="0.0 180.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe2">
+			<vox pos="0.05 0.1 0.0" rot="0.0 0.0 0.0" prop="true" file="MOD/vox/omegabeams.vox" object="door_single_privacy">
+				<joint pos="-0.05 0.6 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+		</vox>
+		<vox pos="-20.7 0.0 16.15" rot="0.0 90.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe2">
+			<vox pos="0.05 0.1 0.0" rot="0.0 0.0 0.0" prop="true" file="MOD/vox/omegabeams.vox" object="door_single_privacy">
+				<joint pos="-0.05 0.6 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+		</vox>
+		<vox pos="-25.75 0.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe">
+			<vox pos="0.05 0.1 0.0" rot="0.0 0.0 0.0" file="MOD/vox/omegabeams.vox" object="door_lock2"/>
+		</vox>
+		<vox pos="-3.3 0.0 16.15" rot="0.0 90.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe">
+			<vox pos="0.05 0.1 0.0" rot="0.0 0.0 0.0" file="MOD/vox/omegabeams.vox" object="door_lock2"/>
+		</vox>
+		<vox pos="-9.7 0.0 3.25" rot="0.0 90.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe">
+			<vox pos="0.05 0.1 -0.7" rot="0.0 0.0 0.0" prop="true" file="MOD/vox/omegabeams.vox" object="door_r">
+				<joint pos="-0.05 0.6 -0.8" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 -0.8" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+			<vox pos="0.05 0.1 0.8" rot="0.0 0.0 0.0" prop="true" file="MOD/vox/omegabeams.vox" object="door_l">
+				<joint pos="-0.05 0.6 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+		</vox>
+		<vox pos="-7.3 0.0 -3.25" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe2">
+			<vox pos="0.05 0.1 0.0" rot="0.0 0.0 0.0" file="MOD/vox/omegabeams.vox" object="door_lock"/>
+		</vox>
+		<vox pos="-11.4 0.0 16.15" rot="0.0 90.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe2">
+			<vox pos="0.05 0.1 0.0" rot="0.0 0.0 0.0" file="MOD/vox/omegabeams.vox" object="door_lock"/>
+		</vox>
+		<vox pos="-4.1 0.0 -3.25" rot="0.0 -90.0 0.0" file="MOD/vox/omegabeams.vox" object="doorframe2">
+			<vox pos="0.05 0.1 0.0" rot="0.0 0.0 0.0" file="MOD/vox/omegabeams.vox" object="door_lock"/>
+		</vox>
+		<vox pos="-0.05 0.0 -51.2" file="MOD/vox/omegabeams.vox" object="doorframe">
+			<vox pos="0.05 0.1 -0.7" rot="0.0 0.0 0.0" prop="false" file="MOD/vox/omegabeams.vox" object="door_r">
+				<joint pos="-0.05 0.6 -0.8" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 -0.8" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+			<vox pos="0.05 0.1 0.8" rot="0.0 0.0 0.0" prop="true" file="MOD/vox/omegabeams.vox" object="door_l">
+				<joint pos="-0.05 0.6 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+		</vox>
+		<vox pos="-0.05 0.0 51.20001" file="MOD/vox/omegabeams.vox" object="doorframe">
+			<vox pos="0.05 0.1 -0.7" rot="0.0 0.0 0.0" prop="false" file="MOD/vox/omegabeams.vox" object="door_r">
+				<joint pos="-0.05 0.6 -0.8" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 -0.8" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+			<vox pos="0.05 0.1 0.8" rot="0.0 0.0 0.0" prop="true" file="MOD/vox/omegabeams.vox" object="door_l">
+				<joint pos="-0.05 0.6 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+				<joint pos="-0.05 2.0 0.7" rot="-90.0 90.0 0.0" type="hinge" rotstrength="0.005" rotspring="0.02" limits="-80 80"/>
+			</vox>
+		</vox>
+	</group>
+	<script file="MOD/script/start.lua" param0="=0.54 0.31 0.96" param1="b=244" param2="g=80" param3="desc=OMEGA" param4="title=Checkpoint 0" param5="music=chk0_1.ogg"/>
+	<spawnpoint pos="21.5 0.5 23.4" rot="0.0 -90.0 0.0"/>
+	<group name="Studing Room" pos="-13.5 -0.2 41.8" rot="0.0 180.0 0.0" prop0="tags=unbreakable">
+		<voxbox pos="10.3 -0.0 6.3" rot="0.0 90.0 0.0" size="127 109 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Cabin Wall" offset="-166.0 0.0 -2.0"/>
+		<voxbox pos="10.6 0.0 6.3" rot="0.0 90.0 0.0" size="127 4 26" object="Cabin Wall" offset="-166.0 0.0 -2.0" color="0.0 0.0 0.0"/>
+		<voxbox pos="10.6 4.2 6.3" rot="0.0 90.0 0.0" size="127 4 26" object="Cabin Wall" offset="-166.0 0.0 -2.0" color="0.0 0.0 0.0"/>
+		<voxbox pos="13.6 0.0 6.3" rot="-90.0 90.0 0.0" size="127 4 46" object="Cabin Wall" offset="-166.0 -0.00001 -2.00002" color="0.0 0.0 0.0"/>
+		<voxbox pos="10.6 0.0 6.3" rot="-90.0 0.0 0.0" size="30 4 46" object="Cabin Wall" offset="-166.0 0.0 -2.0" color="0.0 0.0 0.0"/>
+		<voxbox pos="10.6 0.0 -6.0" rot="-90.0 0.0 0.0" size="30 4 46" object="Cabin Wall" offset="-166.0 0.0 -2.0" color="0.0 0.0 0.0"/>
+		<voxbox pos="-10.29999 4.3 3.2" rot="90.0 90.0 0.0" size="3 206 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99997 -165.99995 -2.00002"/>
+		<voxbox pos="-10.3 4.3 -3.5" rot="90.0 90.0 0.0" size="3 206 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-8.0 4.6 -6.7" rot="90.0 0.0 0.0" size="3 130 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-0.2 4.6 -6.7" rot="90.0 0.0 0.0" size="3 130 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-0.2 4.6 -0.2" rot="0.0 0.0 0.0" size="3 64 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-8.0 4.6 -0.2" rot="0.0 0.0 0.0" size="3 64 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-8.0 0.3 5.8" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-8.0 0.3 -6.2" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-8.0 3.68076 6.11924" rot="-45.0 0.0 0.0" size="3 89 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="-8.0 3.68076 -6.58076" rot="45.0 0.0 0.0" size="3 96 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="7.6 4.6 -0.2" rot="0.0 0.0 0.0" size="3 71 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="10.2 1.4 -1.6" rot="0.0 90.0 0.0" size="19 19 5" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Window"/>
+		<voxbox pos="10.2 1.4 3.2" rot="0.0 90.0 0.0" size="19 19 5" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Window"/>
+		<voxbox pos="-10.3 -0.0 -6.2" size="206 3 125" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Cabin Floor" offset="-166.0 0.0 0.0"/>
+		<voxbox pos="-10.3 3.9 -6.39999" rot="-45.0 0.0 0.0" size="206 3 94" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Cabin Floor" offset="-166.0 0.0 0.0"/>
+		<voxbox pos="10.3 3.9 6.3" rot="-45.0 180.0 0.0" size="206 3 94" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Cabin Floor" offset="-166.0 0.0 0.0"/>
+		<voxbox pos="-10.3 -0.0 -6.39999" rot="0.0 0.0 0.0" size="206 52 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Cabin Wall" offset="-166.0 0.0 -2.0"/>
+		<voxbox pos="-10.3 -0.0 6.00001" rot="0.0 0.0 0.0" size="206 52 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Cabin Wall" offset="-166.0 0.0 -2.0"/>
+		<voxbox pos="-10.6 -0.0 6.3" rot="0.0 90.0 0.0" size="127 107 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Cabin Wall" offset="-166.0 0.0 -2.0"/>
+		<voxbox pos="7.6 4.6 -6.7" rot="90.0 0.0 0.0" size="3 130 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-4.2 3.68076 -6.58076" rot="45.0 0.0 0.0" size="3 96 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="-4.2 3.68076 6.11924" rot="-45.0 0.0 0.0" size="3 89 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="-0.2 3.68076 -6.58076" rot="45.0 0.0 0.0" size="3 96 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="-0.2 3.68076 6.11924" rot="-45.0 0.0 0.0" size="3 89 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="3.5 3.68076 -6.58076" rot="45.0 0.0 0.0" size="3 96 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="3.5 3.68076 6.11924" rot="-45.0 0.0 0.0" size="3 89 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="7.6 3.68076 -6.58076" rot="45.0 0.0 0.0" size="3 96 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="7.6 3.68076 6.11924" rot="-45.0 0.0 0.0" size="3 89 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="-4.2 0.3 -6.2" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<group name="Strut" pos="-7.9 0.3 -3.6">
+			<voxbox pos="0.0 3.0 -0.15" rot="0.0 0.0 -45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 2.9 -0.15" rot="0.0 0.0 45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 0.0 -0.2" rot="0.0 0.0 0.0" size="3 37 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		</group>
+		<group name="Strut" pos="-7.9 0.3 3.1">
+			<voxbox pos="0.0 3.0 -0.15" rot="0.0 0.0 -45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 2.9 -0.15" rot="0.0 0.0 45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 0.0 -0.2" rot="0.0 0.0 0.0" size="3 37 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		</group>
+		<voxbox pos="-4.2 0.3 5.8" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-0.2 0.3 -6.2" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-0.2 0.3 5.8" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="3.5 0.3 -6.2" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="3.5 0.3 5.8" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="7.6 0.3 -6.2" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="7.6 0.3 5.8" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<group name="Strut" pos="-0.1 0.3 3.1">
+			<voxbox pos="0.0 3.0 -0.15" rot="0.0 0.0 -45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 2.9 -0.15" rot="0.0 0.0 45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 0.0 -0.2" rot="0.0 0.0 0.0" size="3 37 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		</group>
+		<group name="Strut" pos="-0.1 0.3 -3.6">
+			<voxbox pos="0.0 3.0 -0.15" rot="0.0 0.0 -45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 2.9 -0.15" rot="0.0 0.0 45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 0.0 -0.2" rot="0.0 0.0 0.0" size="3 37 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		</group>
+		<group name="Strut" pos="7.7 0.3 3.1">
+			<voxbox pos="0.0 3.0 -0.15" rot="0.0 0.0 -45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 2.9 -0.15" rot="0.0 0.0 45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 0.0 -0.2" rot="0.0 0.0 0.0" size="3 37 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		</group>
+		<group name="Strut" pos="7.7 0.3 -3.6">
+			<voxbox pos="0.0 3.0 -0.15" rot="0.0 0.0 -45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 2.9 -0.15" rot="0.0 0.0 45.0" size="2 12 2" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+			<voxbox pos="-0.1 0.0 -0.2" rot="0.0 0.0 0.0" size="3 37 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		</group>
+		<light pos="11.9 2.3 2.3" rot="0.0 -90.0 0.0" type="cone" color="0.41 0.72 0.55" scale="25" angle="60" reach="15"/>
+		<light pos="11.9 2.3 -2.6" rot="0.0 -90.0 0.0" type="cone" color="0.41 0.72 0.55" scale="25" angle="60" reach="15"/>
+		<group name="Door" pos="-10.4 0.3 -0.1" rot="0.0 90.0 0.0">
+			<vox pos="0.0 2.4 -0.1" rot="-180.0 0.0 0.0" file="BUILT-IN/vox/building/door/inner_wood_brown_left.vox" object="frame_inner"/>
+			<vox pos="0.0 0.0 0.0" rot="0.0 -180.0 0.0" file="BUILT-IN/vox/building/door/inner_wood_brown_left.vox" object="frame_outer"/>
+		</group>
+		<vox pos="7.2 0.3 -0.3" rot="0.0 -90.0 0.0" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Desk"/>
+		<vox pos="10.1 2.5 -0.2" rot="0.0 90.0 0.0" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Owl">
+			<light pos="0.0 0.4 -1.2" color="0.89 0.89 0.68" scale="1" size=".1"/>
+		</vox>
+		<vox pos="3.9 0.3 3.3" rot="0.0 0.0 0.0" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="TV Stand"/>
+		<vox pos="3.9 1.0 3.35" rot="0.0 0.0 0.0" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="TV"/>
+		<vox pos="3.8 0.3 1.9" rot="0.0 10.0 0.0" prop="true" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Chair"/>
+		<vox pos="-4.7 1.2 -3.7" rot="0.0 10.0 0.0" prop="false" file="MOD/vox/Prop Guy Stuff/AlanCD.vox"/>
+		<vox pos="-4.7 1.3 -3.7" rot="0.0 -10.0 0.0" prop="false" file="MOD/vox/Prop Guy Stuff/AlanCD.vox"/>
+		<vox tags="unbreakable interact" pos="5.3 0.3 -3.6" rot="0.0 0.0 0.0" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="BlackBoard"/>
+		<vox pos="-4.1 0.3 -3.7" rot="0.0 0.0 0.0" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Radio Tower"/>
+		<vox pos="1.7 0.3 -3.6" rot="0.0 0.0 0.0" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="MapBoard"/>
+		<vox pos="8.2 0.3 -0.3" rot="0.0 -92.0 0.0" prop="true" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Chair"/>
+		<vox pos="7.2 1.3 -0.3" rot="0.0 -82.0 0.0" prop="false" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Typewriter"/>
+		<voxbox pos="10.0 3.68076 -6.58076" rot="45.0 0.0 0.0" size="3 96 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="10.0 3.68076 6.11924" rot="-45.0 0.0 0.0" size="3 89 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="10.0 0.3 5.8" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="10.0 0.3 -6.2" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-10.3 3.68076 -6.58076" rot="45.0 0.0 0.0" size="3 96 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="-10.3 3.68076 6.11924" rot="-45.0 0.0 0.0" size="3 89 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -178.99998 -2.00001"/>
+		<voxbox pos="-10.3 0.3 5.8" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<voxbox pos="-10.3 0.3 -6.2" rot="0.0 0.0 0.0" size="3 46 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Beam" offset="-165.99998 -165.99998 -2.00001"/>
+		<script pos="-3.9 1.2 -3.7" file="MOD/script/radio.lua" param0="song=MOD/music/herald_of_darkness.ogg">
+			<vox tags="unbreakable radio" pos="0.0 0.0 0.0" rot="0.0 170.0 0.0" file="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Radio"/>
+		</script>
+		<vox pos="-4.6 1.5 -3.85" rot="0.0 50.0 0.0" prop="false" file="MOD/vox/Prop Guy Stuff/AlanCD.vox"/>
+		<vox pos="-4.6 1.4 -3.85" rot="0.0 70.0 0.0" prop="false" file="MOD/vox/Prop Guy Stuff/AlanCD.vox"/>
+		<vox pos="-4.7 1.3 -3.35" rot="0.0 -60.0 0.0" prop="false" file="MOD/vox/Prop Guy Stuff/AlanCD.vox"/>
+		<vox pos="-4.7 1.2 -3.35" rot="0.0 -40.0 0.0" prop="false" file="MOD/vox/Prop Guy Stuff/AlanCD.vox"/>
+	</group>
+	<script pos="3.6 0.1 16.9" file="MOD/script/elevator.lua" param0="speed=0.8">
+		<body name="elevatorcab" tags="elevatorcab unbreakable" pos="0.0 1.4 0.0" dynamic="true">
+			<voxbox tags="unbreakable" pos="2.3 -1.4 3.1" rot="0.0 -180.0 0.0" texture="1 0.4" density="4" size="46 1 62" brush="MOD/vox/Art Vandals/Voxboxes/tiles_interior_grey_x.vox" offset="-42.0 0.0 -58.0" color="0.8 0.8 0.8"/>
+			<voxbox tags="unbreakable" pos="2.3 1.9 3.1" rot="0.0 -180.0 0.0" texture="1 0.4" density="4" size="46 1 62" brush="MOD/vox/omegabeams.vox" object="grate" offset="-42.0 0.0 -58.0" color="0.8 0.8 0.8"/>
+			<voxbox tags="unbreakable" pos="-2.3 -1.3 3.1" rot="0.0 90.0 0.0" density="4" size="62 32 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="1.0 0.0 0.0"/>
+			<voxbox tags="unbreakable" pos="2.2 -1.3 3.1" rot="0.0 90.0 0.0" density="4" size="62 32 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="1.0 0.0 0.0"/>
+			<voxbox tags="unbreakable button=1" pos="-2.05 0.0 2.9" rot="0.0 0.0 0.0" density="4" size="2 2 1" offset="1.0 0.0 0.0" color="0.56 0.24 0.93" pbr="0 0 0 1"/>
+			<voxbox tags="unbreakable button=2" pos="-2.05 0.3 2.9" rot="0.0 0.0 0.0" density="4" size="2 2 1" offset="1.0 0.0 0.0" color="0.56 0.24 0.93" pbr="0 0 0 1"/>
+			<voxbox tags="unbreakable panicbutton" pos="-2.05 -0.3 2.9" rot="0.0 0.0 0.0" density="4" size="2 2 1" offset="1.0 0.0 0.0" color="1 0.2 0.2" pbr="0 0 0 1"/>
+			<voxbox tags="unbreakable" pos="-2.1 -0.35 2.95" rot="0.0 0.0 0.0" texture="6 0.5" density="4" size="3 9 1" offset="0.0 0.0 0.0" color="0.5 0.5 0.5"/>
+			<voxbox tags="unbreakable" pos="2.3 -1.3 3.1" rot="0.0 180.0 0.0" density="4" size="6 32 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="1.0 0.0 0.0"/>
+			<voxbox tags="unbreakable" pos="-1.7 -1.3 3.1" rot="0.0 180.0 0.0" density="4" size="6 32 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="1.0 0.0 0.0"/>
+			<voxbox tags="unbreakable" pos="2.3 -1.3 -3.0" rot="0.0 180.0 0.0" density="4" size="6 32 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="1.0 0.0 0.0"/>
+			<voxbox tags="unbreakable" pos="1.7 1.5 -3.0" rot="0.0 180.0 0.0" density="4" size="34 4 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="1.0 28.0 0.0"/>
+			<voxbox tags="unbreakable" pos="1.7 1.5 3.1" rot="0.0 180.0 0.0" density="4" size="34 4 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="1.0 28.0 0.0"/>
+			<voxbox tags="unbreakable" pos="-1.7 -1.3 -3.0" rot="0.0 180.0 0.0" density="4" size="6 32 1" brush="MOD/vox/Art Vandals/Voxboxes/concrete_beige_01.vox" offset="1.0 0.0 0.0"/>
+			<joint tags="motor" pos="0.0 -1.4 0.0" rot="-90.0 0.0 0.0" type="prismatic" size="0.4" collide="true"/>
+			<rope pos="2.3 1.9 3.1" slack="-100">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="0.0 17.1 0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+			<rope pos="-2.3 1.9 3.1" slack="-100">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="0.0 17.1 0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+			<rope pos="-2.3 1.9 -3.1" slack="-100">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="0.0 17.1 0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+			<rope pos="2.3 1.9 -3.1" slack="-100">
+				<location pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location pos="0.0 17.1 0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</body>
+		<location tags="floortarget"/>
+		<location tags="floortarget" pos="0.0 12.8 0.0"/>
+		<voxbox tags="unbreakable button=2 callbutton" pos="-1.9 14.2 -3.4" rot="0.0 0.0 0.0" size="2 2 1" offset="1.0 0.0 0.0" color="0.56 0.24 0.93" pbr="0 0 0 1"/>
+		<voxbox tags="unbreakable button=1 callbutton" pos="1.7 1.4 3.3" rot="0.0 0.0 0.0" size="2 2 1" offset="1.0 0.0 0.0" color="0.56 0.24 0.93" pbr="0 0 0 1"/>
+		<voxbox tags="unbreakable" pos="1.65 1.35 3.25" rot="0.0 0.0 0.0" texture="6 0.5" size="3 3 1" offset="0.0 0.0 0.0" color="0.5 0.5 0.5"/>
+		<voxbox tags="unbreakable" pos="-1.95 14.15 -3.35" rot="0.0 0.0 0.0" texture="6 0.5" size="3 3 1" offset="0.0 0.0 0.0" color="0.5 0.5 0.5"/>
+	</script>
+</scene>
+
