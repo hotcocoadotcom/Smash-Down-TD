@@ -1,7 +1,7 @@
 title = GetStringParam("title", "")
 desc = GetStringParam("desc", "")
 music = GetStringParam("music", "")
-descr, descg, descb = GetColorParam(name, default)
+descr, descg, descb = GetColorParam("desc-color", 1, 1, 1)
 
 function init()
     uiCloseEyes = 1

@@ -466,7 +466,7 @@
 			</vox>
 		</vox>
 	</group>
-	<script file="MOD/script/start.lua" param0="=0.54 0.31 0.96" param1="b=244" param2="g=80" param3="desc=OMEGA" param4="title=Checkpoint 0" param5="music=chk0_1.ogg"/>
+	<script file="MOD/script/start.lua" param0="=0.54 0.31 0.96" param1="b=244" param2="g=80" param3="desc=OMEGA" param4="title=Checkpoint 0" param5="desc-color=0.54 0.31 0.96" param6="music=chk0_1.ogg"/>
 	<spawnpoint pos="21.5 0.5 23.4" rot="0.0 -90.0 0.0"/>
 	<group name="Studing Room" pos="-13.5 -0.2 41.8" rot="0.0 180.0 0.0" prop0="tags=unbreakable">
 		<voxbox pos="10.3 -0.0 6.3" rot="0.0 90.0 0.0" size="127 109 3" brush="MOD/vox/Prop Guy Stuff/alan_studing.vox" object="Cabin Wall" offset="-166.0 0.0 -2.0"/>
